@@ -1,15 +1,11 @@
 ---
-title: "Guides"
+title: "Resourcequotas"
 description: ""
 summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
-draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "guides-4e0d0e0f89f7decc11eaad4ae9193018"
-weight: 800
+date: 2024-04-03T20:41:45+02:00
+lastmod: 2024-04-03T20:41:45+02:00
+draft: true
+weight: 999
 toc: true
 seo:
   title: "" # custom title (optional)

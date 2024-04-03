@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,node
+# Created by https://www.toptal.com/developers/gitignore/api/node,go,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,go,hugo
 
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
@@ -23,6 +23,21 @@
 
 # Go workspace file
 go.work
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### Node ###
 # Logs
@@ -164,4 +179,4 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# End of https://www.toptal.com/developers/gitignore/api/go,node
+# End of https://www.toptal.com/developers/gitignore/api/node,go,hugo
